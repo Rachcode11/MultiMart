@@ -3,7 +3,7 @@ img{
 }
 .product__item{
     cursor: pointer;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .product__info h3 a{
     font-size:1.2rem;

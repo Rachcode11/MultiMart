@@ -10,7 +10,7 @@ import ProductsList from "../components/UI/ProductsList";
 const ProductDetails = () => {
   const [tab, setTab] = useState("desc");
   const { id } = useParams();
-  const [rating, setRating] = useState(null);
+  const [ setRating] = useState(null);
   const product = products.find((item) => item.id === id);
   const {
     imgUrl,
